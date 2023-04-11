@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
-  m_Name: Gatito
+  m_Name: Dino9
   m_EditorClassIdentifier: 
-  _nombre: Gatito
-  _fuerza: 5
-  _sprite: {fileID: 21300000, guid: cb8cab344aa5db246a7f0e893bda532f, type: 3}
+  _nombre: 
+  _ataque: 
+  _sprite: {fileID: 0}

@@ -10,18 +10,19 @@ public class CartaLoader : MonoBehaviour
     private CartaSO _datos;
 
     [SerializeField]
-    private TMP_Text _nombre;
+    private TMP_Text _topText;
     
     [SerializeField]
-    private TMP_Text _ataque; 
+    private TMP_Text _bottomText; 
 
     [SerializeField]
     private SpriteRenderer _spriteRenderer;
     void Start()
     {
         Assert.IsNotNull(_datos, "NO HAY DATOS DEL PREFAB CARTA NO PUEDEN SER NULOS");
-        _nombre.text = _datos._nombre;
-        _fuerza.text = _datos._fuerza;
+        _topText.text = _datos._nombre;
+        _bottomText.text = _datos._ataque;
         _spriteRenderer.sprite = _datos._sprite;
     }
+    
 }
