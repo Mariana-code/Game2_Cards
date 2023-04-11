@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
   m_Name: Dino8
   m_EditorClassIdentifier: 
-  _nombre: 
-  _ataque: 
-  _sprite: {fileID: 0}
+  _nombre: Trieraptops
+  _ataque: 40
+  _sprite: {fileID: 21300000, guid: aa712e2cb3ee2cc46a615621b414d665, type: 3}

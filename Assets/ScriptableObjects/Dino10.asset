@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
   m_Name: Dino10
   m_EditorClassIdentifier: 
-  _nombre: 
-  _ataque: 
-  _sprite: {fileID: 0}
+  _nombre: Sarcosuchus
+  _ataque: 50
+  _sprite: {fileID: 21300000, guid: bcbd8570afbff4d4aaad3e4392913789, type: 3}

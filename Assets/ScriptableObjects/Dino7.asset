@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
   m_Name: Dino7
   m_EditorClassIdentifier: 
-  _nombre: 
-  _ataque: 
-  _sprite: {fileID: 0}
+  _nombre: Kentosarurus
+  _ataque: 10
+  _sprite: {fileID: 21300000, guid: d5253513c7dab034b821571cb72fbec2, type: 3}

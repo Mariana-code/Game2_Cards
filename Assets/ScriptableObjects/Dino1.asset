@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
   m_Name: Dino1
   m_EditorClassIdentifier: 
-  _nombre: Dino1
+  _nombre: Allosaurus
   _ataque: 10
-  _sprite: {fileID: 21300000, guid: cb8cab344aa5db246a7f0e893bda532f, type: 3}
+  _sprite: {fileID: 21300000, guid: 50aba424ce9fb72488435b1823d775de, type: 3}

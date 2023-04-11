@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eecdef9e420e8454b9064bd5cc6aea46, type: 3}
   m_Name: Dino2
   m_EditorClassIdentifier: 
-  _nombre: Dino2
+  _nombre: Ankylosaurus
   _ataque: 12
-  _sprite: {fileID: 21300000, guid: c14743386fc20274196bc571e543ecae, type: 3}
+  _sprite: {fileID: 21300000, guid: 3d64a05dc66f31647ae0017c29ab9993, type: 3}
