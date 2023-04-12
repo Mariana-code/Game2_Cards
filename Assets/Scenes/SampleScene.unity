@@ -202,6 +202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carta (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7292023697642173854, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -349,7 +353,7 @@ GameObject:
   - component: {fileID: 805201596}
   - component: {fileID: 805201595}
   m_Layer: 5
-  m_Name: UwU
+  m_Name: RandomizeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,7 +423,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805201596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2003877850}
+        m_TargetAssemblyTypeName: DeckLoader, Assembly-CSharp
+        m_MethodName: Clear
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &805201596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,6 +484,10 @@ PrefabInstance:
     - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_Name
       value: Carta (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7292023697642173854, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_RootOrder
@@ -530,6 +550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carta (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7292023697642173854, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -590,6 +614,10 @@ PrefabInstance:
     - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_Name
       value: Carta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7292023697642173854, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_RootOrder
@@ -742,6 +770,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &2003877849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003877851}
+  - component: {fileID: 2003877850}
+  m_Layer: 0
+  m_Name: CardsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003877850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003877849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009769255fdee2447b3f0b47ef427038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cartaPrefab: {fileID: 7292023697642173855, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+  _cartas:
+  - {fileID: 11400000, guid: fb10266859427fe4995223002ee15808, type: 2}
+  - {fileID: 11400000, guid: 926b29e99631d9746885e541b4ab771e, type: 2}
+  - {fileID: 11400000, guid: 7fb76b6eabd30254096f48defab70c81, type: 2}
+  - {fileID: 11400000, guid: 790e8ea645a89434a8041fab4e17527f, type: 2}
+  - {fileID: 11400000, guid: 941b2152bde172640a19469970365083, type: 2}
+  - {fileID: 11400000, guid: 7c19da932f1e83d4daf8c7b009871fb2, type: 2}
+  - {fileID: 11400000, guid: 9bd46c7b02517c24c9ae3f6efd9edb80, type: 2}
+  - {fileID: 11400000, guid: ab87d70e3823fb548b3a0a990d2aae22, type: 2}
+  - {fileID: 11400000, guid: 0c4573674ce2e5c4e903193ca7b0a350, type: 2}
+  - {fileID: 11400000, guid: d15b9d48059c1854d92b96d980d2a3a4, type: 2}
+  _carta: {fileID: 2003877849}
+--- !u!4 &2003877851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003877849}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122603961
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +972,10 @@ PrefabInstance:
     - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_Name
       value: Carta (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292023697642173848, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7292023697642173854, guid: aa4dd06e10d6ecb469ea17fc8edb9cce, type: 3}
       propertyPath: m_RootOrder
