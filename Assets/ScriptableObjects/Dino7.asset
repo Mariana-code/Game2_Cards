@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nombre: Kentosarurus
   _ataque: 10
-  _sprite: {fileID: 21300000, guid: d5253513c7dab034b821571cb72fbec2, type: 3}
+  _sprite: {fileID: 21300000, guid: 575134d4c2460cf42afa6ba94d2921cc, type: 3}

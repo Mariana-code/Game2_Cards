@@ -24,5 +24,13 @@ public class CartaLoader : MonoBehaviour
         _bottomText.text = _datos._ataque;
         _spriteRenderer.sprite = _datos._sprite;
     }
+
+    public void Randomize()
+    {
+        
+        _topText.text = _datos._nombre;
+        _bottomText.text = _datos._ataque;
+        _spriteRenderer.sprite = _datos._sprite;
+    }
     
 }

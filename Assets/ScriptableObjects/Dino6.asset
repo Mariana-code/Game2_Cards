@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nombre: Kaprosuchus
   _ataque: 32
-  _sprite: {fileID: 21300000, guid: 1b26ab0bdd7110c4b930347f740a2f92, type: 3}
+  _sprite: {fileID: 21300000, guid: d08654bdb6ea6d046adb6f14b312e180, type: 3}

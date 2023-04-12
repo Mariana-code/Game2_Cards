@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nombre: T-Rex
   _ataque: 44
-  _sprite: {fileID: 21300000, guid: 0dfd440a42856e341b95612ae07f4cbb, type: 3}
+  _sprite: {fileID: 21300000, guid: eb988322b4ebf0642a57c0b1d946c97f, type: 3}
